@@ -1,0 +1,34 @@
+{
+  "name": "wechat-starter",
+  "version": "1.0.0",
+  "description": "微信公众平台示例项目",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankwaizi/wechat-starter.git"
+  },
+  "keywords": [
+    "微信",
+    "wechat",
+    "sample"
+  ],
+  "author": "Frank Fan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankwaizi/wechat-starter/issues"
+  },
+  "homepage": "https://github.com/frankwaizi/wechat-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1",
+    "serve-static": "^1.10.0",
+    "wechat": "^2.0.3",
+    "wechat-api": "^1.23.0",
+    "wechat-oauth": "^1.1.0"
+  }
+}

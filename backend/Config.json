@@ -1,0 +1,19 @@
+{
+  "base": {
+    "token" : "anywhere",
+    "encodingAESKey" : "QuATvIS38KKT51VwnypAeUnakjNJagvLSeT5jzc9TeH",
+    "appid" : "wx6da39b9d4b4ee7f1"
+  },
+
+  "rootServer": "http://wechatemployee.frankfan.me",
+
+  "userAgent": "Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/6.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)",
+
+  "owner": "Frank",
+  "secret": "b53f39b43ac806556d1e2e4d43439126",
+
+  "template" : {
+    "login" : "WXK4PqUGwKoF_qT_qEuLjxiBpMkFKXkRpcNcBWQibG0",
+    "alert" : "MMJgt69Wk6aX1aRCFWCmYupXioCNAiZnEs4__JMJ_BM"
+  }
+}

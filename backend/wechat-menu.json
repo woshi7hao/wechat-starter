@@ -1,0 +1,66 @@
+﻿{
+    "button": [
+    {
+        "name": "报表",
+        "sub_button": [{
+            "type": "click",
+            "name": "获取列表",
+            "key": "baseService-getReport"
+        }, {
+            "type": "view",
+            "name": "查看报表",
+            "url": "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6da39b9d4b4ee7f1&redirect_uri=http://wechatemployee.frankfan.me/report.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect"
+        }]
+    },
+    {
+        "name": "备忘录",
+        "sub_button": [
+        {
+            "type": "scancode_push",
+            "name": "扫一扫",
+            "key": "scancode"
+        }, 
+        {
+            "type": "pic_photo_or_album",
+            "name": "拍照传图",
+            "key": "takephoto"
+        }, {
+            "type": "pic_weixin",
+            "name": "添加图片",
+            "key": "sendpic"
+        },
+        {
+            "type": "location_select",
+            "name": "发送位置",
+            "key": "sendpic"
+        },
+        {
+            "type": "click",
+            "name": "我的备忘录",
+            "key": "memoService-list"
+        }]
+    }, {
+        "name": "我的业务",
+        "sub_button": [{
+            "type": "click",
+            "name": "我的客户",
+            "key": "bpService-list"
+        }, {
+            "type": "click",
+            "name": "我的产品",
+            "key": "itemService-list"
+        }, {
+            "type": "click",
+            "name": "我的订单",
+            "key": "orderService-list"
+        }, {
+            "type": "click",
+            "name": "销售线索",
+            "key": "leadsService-list"
+        },{
+            "type": "click",
+            "name": "搜索",
+            "key": "searchService-guide"
+        }]
+    }]
+}
